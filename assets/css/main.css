@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  background: #02B294;
+  font-size: 1em;
+  color: #EEEEEE;
+}
+
+a {
+  color: #F1F1F1;
+  font-size: inherit;
+}
+
+.form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form h1 {
+  text-align: center;
+  font-size: 1.25em;
+  padding: 20px;
+}
+.form .form-input {
+  font-size: 1em;
+  padding: 5px;
+  background: #FFFFFF;
+  margin: 5px auto;
+  width: 85%;
+  border-radius: 5px;
+  line-height: 2em;
+  border: #2EBFA6 1px solid;
+}
+.form .form-submit {
+  border: #2EBFA6 1px solid;
+  width: 85%;
+  color: #80D8C9;
+  background: #02B294;
+}
+
+.form .form-submit:hover {
+  border: #FFFFFF 1px solid;
+  width: 85%;
+  color: #FFFFFF;
+  background: #02B294;
+}
+.form-link {
+  margin: 20px auto;
+}
+
+.error{
+  padding: 5px;
+  margin: 5px auto;
+  border-radius: 5px;
+  width: 85%;
+  border: 1px #F19F9F solid;
+  background: #B93939;
+  text-align: left;
+}
+
+
+.message {
+    background: #FFF;
+    border: 1px #EEE solid;
+    border-radius: 5px;
+    margin: 10px auto;
+    max-width: 700px;
+    width: 90%;
+    color: #000;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.owner {
+    background: #1F8696;
+}
+
+.message .topic {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.message .top {
+    overflow: hidden;
+}
+.message .username, .message .topic {
+    float: left;
+}
+
+.message .create_time, .message .edit {
+    float: right;
+}
